@@ -1,0 +1,224 @@
+<html>
+<head>
+  <meta name="viewport" content= "width=device-width" initial scale=1.0,user-scalable=no>
+  <title>Whatsapp Web</title>
+  <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<!-- top navigation -->
+
+  <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+   
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+       <li class="navchatitem">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="navchatitem">
+        <a class="nav-link" href="">Profile <span class="sr-only">(current)</span></a>
+      </li>
+      
+     
+    </ul>
+   </nav>
+
+  </div>
+
+  <nav class="navbar navbar-light" style="background-color: MEDIUMAQUAMARINE;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="border-0"></span>
+      <span class="navbar-toggler-icon "></span>
+
+        <h6 class="navbar-brand text-white">
+  <img src="images/whatsapp.jpg" width="50" height="50" class="rounded-circle" alt="">  
+   Whatsapp Web
+  </h6>
+    </button>
+  </nav>
+</div>
+
+
+ 
+<div class="container-fluid " >
+    
+<div class="row">
+  <div class="col-lg-4"style="background-color: lightblue;">
+    <div class="well">
+
+    <h3 CLASS="text-center text-light">PROFILE</h3>
+    <div class="list-group" id="list-tab" role="tablist">
+
+        <div class="text-center">
+
+
+
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile02">
+    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Change Profile Photo</label>
+  </div>
+  <div class="input-group-append">
+    <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+</div>
+
+
+  <img src="images/img4.jpg" class="img-fluid rounded-circle" alt="..."width="300" height="350">
+  <h3 class="text-secondary">Jennifer Joseph</h3>
+<form >
+
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label ">Name</label>
+    <div class="col-sm-10 ">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Jennifer Joseph">
+    </div>
+    <label for="staticEmail" class="col-sm-2 col-form-label">Mobile</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="+918989756734">
+    </div>
+    
+     <label for="staticEmail" class="col-sm-2 col-form-label">Status</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="My contacts">
+    </div>
+    <label for="staticEmail" class="col-sm-2 col-form-label">Privacy</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Public">
+    </div>
+    
+
+  </div>
+  
+</form>
+  
+</div>
+
+      
+      <ul>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <div class="col-lg-8"style="background-color: lightblue;">
+    <div class="well">
+
+
+    <div class="tab-content" id="nav-tabContent">
+
+      <img src="images/img4.jpg" class="imgtrans img-fluid" alt="Responsive image">
+     
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary centered" data-toggle="modal" data-target="#exampleModalCenter">
+  Edit Profile
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Edit Profile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group row">
+    <label for="nameid" class="col-sm-2 col-form-label">Name</label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="nameid" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="mob" class="col-sm-2 col-form-label">Mobile</label>
+    <div class="col-sm-10">
+      <input type="mobile" class="form-control" id="mob" placeholder="Password">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Privacy</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Public" checked>
+          <label class="form-check-label" for="gridRadios1">
+          Public
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Private">
+          <label class="form-check-label" for="gridRadios2">
+           Private
+          </label>
+        </div>
+       
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <div class="col-sm-2">Status</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+        My contacts
+        </label>
+        <ul>
+        </ul>
+         <input class="form-check-input" type="checkbox" id="gridCheck2">
+         <label class="form-check-label" for="gridCheck2">
+          Nobody
+        </label>
+        </div>
+          
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+     
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+<footer class="container text-center">
+        <p class="text-muted">© Copyright 2018, Annex Antony, All rights reserved. </p>
+    </footer>
+</div>
+
+
+   
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
